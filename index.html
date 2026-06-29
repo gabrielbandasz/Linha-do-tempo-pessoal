@@ -116,27 +116,26 @@ body { background: var(--bg); color: var(--ink); font-family: var(--sans); min-h
 </div>
 
 <script>
-// ─────────────────────────────────────────────
-//  EVENTOS — edite o campo `photo` de cada um
-//  Aceita qualquer caminho: relativo, absoluto ou URL
-//  Exemplos:
-//    photo: "./fotos/evento1.jpg"
-//    photo: "../img/ana-gabriel.png"
-//    photo: "https://exemplo.com/foto.jpg"
-//  Deixe null para mostrar o placeholder vazio
-// ─────────────────────────────────────────────
+
+
 const EVENTS = [
   {
     date:  "2019",
     title: "O Primeiro Registro",
     body:  "Foi aqui que tudo começou.\n\nNão sabemos exatamente quando começou, mas esse é o primeiro registro.",
-    photo: "./fotos/foto1.jpg" // <- coloque o caminho aqui
+    photo: "./fotos/foto1.jpg" 
   },
   {
     date:  "Reencontro",
     title: "O Recomeço",
     body:  "Depois de anos, Deus cruzou nossos caminhos novamente.\n\nE aquilo que parecia apenas uma lembrança voltou a fazer parte da nossa vida.",
     photo: "./fotos/foto2.JPG"
+  },
+  {
+    date:  "14 de Dezembro de 2025",
+    title: "A Primeira Mão Dada",
+    body:  "Foi nesse retiro que demos as mãos pela primeira vez\n\nFoi numa brincadeira\n\nFogo no asilo\n\n.Foi um momento simples, mas que marcou o início de algo muito especial.",
+    photo: "./fotos/foto14.jpg"
   },
   {
     date:  "19 de Abril de 2026",
@@ -203,7 +202,8 @@ const EVENTS = [
     title: "Deus Nos Usou",
     body:  "Cantamos juntos a música Digno.\n\nEla estava nervosa.\n\nEu tentei ajudá-la.\n\nE Deus nos usou naquela noite.",
     photo: "./fotos/foto13.jpg"
-  }
+  },
+   
 ];
 // ─────────────────────────────────────────────
 
